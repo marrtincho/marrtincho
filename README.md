@@ -7,20 +7,21 @@ reales — y estoy buscando mi primer puesto como developer/ML en España.
 
 No vengo de un rol de desarrollo formal todavía, pero mis proyectos son
 sistemas completos de punta a punta: pipelines de ML entrenados y validados,
-apps en producción real resolviendo problemas de negocio, y decisiones
-técnicas documentadas y justificadas, no solo código que funciona.
+apps desplegadas y accesibles online resolviendo problemas de negocio reales,
+y decisiones técnicas documentadas y justificadas, no solo código que
+funciona.
 
 #### Stack técnico
-
 - **Lenguaje:** Python
 - **ML / Deep Learning:** PyTorch, MONAI, nnU-Net, LightGBM, scikit-learn
 - **Imagen médica:** SimpleITK, pydicom, highdicom, DICOM SEG/SR
 - **Backend:** Flask, FastAPI
 - **Datos / RAG:** ChromaDB, embeddings, Ollama
 - **Optimización:** Google OR-Tools (CP-SAT)
+- **Infraestructura:** despliegue self-hosted (homelab), Cloudflare Tunnel
 - **Testing:** pytest
 
-#### Proyecto destacado
+#### Proyectos destacados
 
 **[picai-cspca-DICOM-pipeline](https://github.com/marrtincho/picai-cspca-DICOM-pipeline)**
 — pipeline de deep learning 3D en cascada (nnU-Net + MedicalNet + LightGBM)
@@ -29,7 +30,12 @@ significativo sobre mpMRI, validado sobre DICOM clínico real con salida
 DICOM SEG/SR compatible con PACS. Incluye métricas reportadas honestamente,
 limitaciones explícitas y razonamiento de diseño documentado.
 
-#### Contacto
+**[hotel-shift-scheduler-cpsat](https://github.com/marrtincho/hotel-shift-scheduler-cpsat)**
+— sistema de optimización de turnos de recepción con Google OR-Tools
+(CP-SAT), desplegado y en uso online desde mi propio homelab
+([demo en vivo](https://horarios.lobbysoftware.dpdns.org/)). Actualmente en
+fase de ajuste antes de su adopción formal y definitiva.
 
-- Email: mropero21@gmail.com  
-- LinkedIn: linkedin.com/in/martin-ropero/
+#### Contacto
+- Email: mropero21@gmail.com
+- LinkedIn: [linkedin.com/in/martin-ropero](https://linkedin.com/in/martin-ropero/)
