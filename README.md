@@ -31,5 +31,5 @@ limitaciones explícitas y razonamiento de diseño documentado.
 
 #### Contacto
 
-- Email: [tu-email@ejemplo.com]
-- LinkedIn: [linkedin.com/in/tu-usuario]
+- Email: mropero21@gmail.com  
+- LinkedIn: linkedin.com/in/martin-ropero/
