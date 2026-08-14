@@ -3,7 +3,7 @@
 Developer autodidacta especializado en **Python y Machine Learning**. Llevo 5
 años formándome por mi cuenta — desde fundamentos de programación hasta
 entrenamiento y validación de modelos de deep learning sobre datos clínicos
-reales — y estoy buscando mi primer puesto como developer/ML en España.
+reales, entrenamiento de modelos de IA, optimizacion y automatizacion de procesos.
 
 No vengo de un rol de desarrollo formal todavía, pero mis proyectos son
 sistemas completos de punta a punta: pipelines de ML entrenados y validados,
@@ -29,6 +29,15 @@ para detección, localización y gradación de cáncer de próstata clínicament
 significativo sobre mpMRI, validado sobre DICOM clínico real con salida
 DICOM SEG/SR compatible con PACS. Incluye métricas reportadas honestamente,
 limitaciones explícitas y razonamiento de diseño documentado.
+
+**[hotel-revenue-forecast](https://github.com/marrtincho/hotel-revenue-forecast)
+— previsión de ocupación por tipo de habitación a 30/60/90 días mediante
+pickup forecasting y gradient boosting. Validación temporal estricta,
+comparación obligatoria contra baselines de negocio, restricciones monótonas
+para forzar coherencia con la lógica del dominio, e interfaz para usuarios no
+técnicos. Documenta dos bugs reales de producción —un modelo sobreajustado que
+había dejado de responder a la demanda actual, y lógica de entrenamiento
+duplicada que se desincronizó— junto al método que los detectó.
 
 **[hotel-shift-scheduler-cpsat](https://github.com/marrtincho/hotel-shift-scheduler-cpsat)**
 — sistema de optimización de turnos de recepción con Google OR-Tools
