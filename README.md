@@ -30,7 +30,16 @@ significativo sobre mpMRI, validado sobre DICOM clínico real con salida
 DICOM SEG/SR compatible con PACS. Incluye métricas reportadas honestamente,
 limitaciones explícitas y razonamiento de diseño documentado.
 
-**[hotel-revenue-forecast](https://github.com/marrtincho/hotel-revenue-forecast)
+**[reception-assistant-rag](https://github.com/marrtincho/reception-assistant-rag)**
+— asistente RAG de uso interno para el equipo de recepción de un hotel,
+con modelos locales vía Ollama. Responde dudas operativas a partir de la
+documentación del hotel sin entrenar ni ajustar ningún modelo. Sistema
+completo de punta a punta (221 tests): ingesta, embeddings/indexado,
+retrieval, generación e interfaz Streamlit, con caché semántico de
+respuestas validadas y una pestaña de métricas con diagnóstico operativo
+automático. Decisiones técnicas documentadas en `docs/decisiones/`.
+
+**[hotel-revenue-forecast](https://github.com/marrtincho/hotel-revenue-forecast)**
 — previsión de ocupación por tipo de habitación a 30/60/90 días mediante
 pickup forecasting y gradient boosting. Validación temporal estricta,
 comparación obligatoria contra baselines de negocio, restricciones monótonas
